@@ -1,0 +1,4 @@
+{ "milestones": [
+  { "id": "m-001", "type": "release", "title": "Volume One released — 8 songs live on Spotify & Apple Music", "date": "2026-05-01", "notes": "Verified from live Spotify/Apple Music album pages." },
+  { "id": "m-002", "type": "catalog", "title": "Full 8-track catalog entered with real distribution links", "date": "2026-07-17", "notes": "" }
+]}

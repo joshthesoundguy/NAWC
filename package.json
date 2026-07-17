@@ -1,0 +1,16 @@
+{
+  "name": "nawc-music-command-center",
+  "version": "1.0.0",
+  "description": "Local, white-labeled music & worship command center for Nations Arise Worship Collective",
+  "private": true,
+  "scripts": {
+    "start": "node scripts/server.js",
+    "backup": "node scripts/backup.js",
+    "restore": "node scripts/restore.js",
+    "import:youtube": "node scripts/import-youtube.js",
+    "import:distributor-csv": "node scripts/import-distributor-csv.js",
+    "test": "node tests/smoke-test.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {}
+}

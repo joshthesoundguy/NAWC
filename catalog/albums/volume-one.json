@@ -1,0 +1,36 @@
+{
+  "id": "album-volume-one",
+  "title": "Nations Arise Worship Collective: Volume One",
+  "type": "album",
+  "status": "Released",
+  "accentColor": "#D4A24E",
+  "releaseDate": "2026-05-01",
+  "durationSeconds": 2548,
+  "trackCount": 8,
+  "distributor": "DistroKid",
+  "publisher": "NAWC Music",
+  "copyright": "\u00a9 2026 NAWC Music",
+  "phonogramCopyright": "\u2117 2026 NAWC Music",
+  "links": {
+    "spotify": "https://open.spotify.com/album/3yUyY2PfvnIvpzzmEL2e4B",
+    "spotifyArtist": "https://open.spotify.com/artist/0DzRCKOofMdgNsoEEC7gCY",
+    "appleMusic": "https://music.apple.com/us/album/nations-arise-worship-collective-volume-one/1895430563",
+    "appleMusicArtist": "https://music.apple.com/us/artist/nations-arise-worship-collective/1894612957",
+    "youtubeChannel": "https://www.youtube.com/channel/UCtsuBpVb6IdMHEUS16WoNOA"
+  },
+  "artwork": "https://i.scdn.co/image/ab67616d0000b27318836c868fb3cdbe1cd0eec3",
+  "notes": "Verified from live Spotify/Apple Music pages on 2026-07-17. UPC still needs to be added from your DistroKid dashboard.",
+  "sourceOfTruth": "spotify+apple-music (fetched 2026-07-17)",
+  "songIds": [
+    "song-he-never-left-me",
+    "song-thats-my-god",
+    "song-focus-of-my-worship-holy-holy-holy",
+    "song-no-not-one",
+    "song-fire-on-my-lips",
+    "song-fire-on-my-lips-reprise",
+    "song-worship-medley",
+    "song-focus-of-my-worship-worship-remix"
+  ],
+  "createdAt": "2026-07-16",
+  "updatedAt": "2026-07-17"
+}

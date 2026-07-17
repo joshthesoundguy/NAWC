@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.nawc.dailybackup</string>
+
+  <!-- EDIT THESE TWO PATHS to match where you put this project and your node binary
+       (run `which node` in Terminal to find yours). -->
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/local/bin/node</string>
+    <string>/Users/YOURNAME/nawc-music-command-center/scripts/backup.js</string>
+  </array>
+
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>3</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
+
+  <key>StandardOutPath</key>
+  <string>/Users/YOURNAME/nawc-music-command-center/logs/launchd-backup.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/YOURNAME/nawc-music-command-center/logs/launchd-backup-error.log</string>
+
+  <key>RunAtLoad</key>
+  <false/>
+</dict>
+</plist>

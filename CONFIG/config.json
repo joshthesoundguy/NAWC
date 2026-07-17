@@ -1,0 +1,85 @@
+{
+  "identity": {
+    "dashboardName": "NAWC Music Command Center",
+    "tagline": "One sound. Every nation. One command center.",
+    "owner": "Josh Thomas",
+    "brandName": "Nations Arise Worship Collective",
+    "abbreviation": "NAWC",
+    "socialHandle": "@NAWCmusic"
+  },
+  "theme": {
+    "default": "dark",
+    "accent": "#D4A24E",
+    "accentSecondary": "#E8B96B",
+    "dark": {
+      "bg": "#0B0B0D",
+      "surface": "#161618",
+      "surfaceAlt": "#1F1F22",
+      "text": "#F4EFE6",
+      "textMuted": "#A8A29A",
+      "border": "#2A2A2E"
+    },
+    "light": {
+      "bg": "#F7F3EC",
+      "surface": "#FFFFFF",
+      "surfaceAlt": "#EFE8DA",
+      "text": "#1A1712",
+      "textMuted": "#6B6357",
+      "border": "#E1D8C4"
+    },
+    "fontDisplay": "'Fraunces', 'Georgia', serif",
+    "fontBody": "'Inter', system-ui, sans-serif"
+  },
+  "audience": [
+    "Christians", "Worship leaders", "Gospel music listeners", "Afrobeat listeners",
+    "Afrogospel listeners", "Global worship communities", "Churches", "Choirs",
+    "Young adults", "Christian creatives", "Musicians", "Worship teams",
+    "Music ministries", "Diaspora communities"
+  ],
+  "platforms": {
+    "spotify": true, "appleMusic": true, "youtube": true, "youtubeMusic": true,
+    "instagram": true, "facebook": true, "tiktok": true, "amazonMusic": false,
+    "audiomack": false, "soundcloud": false, "bandcamp": false, "website": true,
+    "email": false, "podcasts": false, "radio": false, "churchOutreach": true
+  },
+  "contentPillars": [
+    "Worship moments", "Scripture-rooted teaching", "Behind-the-scenes",
+    "Cultural storytelling", "Testimonies & ministry impact",
+    "Release-cycle promotion", "Collaboration spotlights"
+  ],
+  "releaseStages": [
+    "Idea", "Writing", "Demo", "Production", "Vocal Recording", "Editing",
+    "Mixing", "Mastering", "Artwork", "Distribution Setup", "Campaign Planning",
+    "Pre-Save", "Scheduled", "Released", "Promoting", "Post-Release", "Archived"
+  ],
+  "scripturePreference": "KJV",
+  "flagship": {
+    "projectId": "album-volume-one",
+    "status": "active"
+  },
+  "agents": [
+    { "id": "song-seed", "name": "Song Seed", "role": "Concepts, titles, Scripture connections" },
+    { "id": "lyric-architect", "name": "Lyric Architect", "role": "Verses, choruses, bridges, versioning" },
+    { "id": "sound-designer", "name": "Sound Designer", "role": "Keys, BPM, instrumentation, Suno prompts" },
+    { "id": "release-director", "name": "Release Director", "role": "Timelines, dependencies, missing assets" },
+    { "id": "campaign-builder", "name": "Campaign Builder", "role": "Promo campaigns tied to a goal" },
+    { "id": "content-choreographer", "name": "Content Choreographer", "role": "Full content ecosystem per song" },
+    { "id": "audience-analyst", "name": "Audience Analyst", "role": "Reads real performance data" },
+    { "id": "global-worship-scout", "name": "Global Worship Scout", "role": "Trend awareness filtered by brand fit" },
+    { "id": "collaboration-connector", "name": "Collaboration Connector", "role": "Outreach tracking" },
+    { "id": "playlist-media-scout", "name": "Playlist & Media Scout", "role": "Legitimate playlist/radio/media opps" },
+    { "id": "visual-worship-director", "name": "Visual Worship Director", "role": "Artwork/video concepts" },
+    { "id": "catalog-keeper", "name": "Catalog Keeper", "role": "Metadata integrity, ISRC/UPC, credits" },
+    { "id": "ministry-impact-keeper", "name": "Ministry Impact Keeper", "role": "Testimonies, church usage, reach" },
+    { "id": "trophy-room", "name": "Trophy Room", "role": "Milestone logging" }
+  ],
+  "features": {
+    "liveAI": false,
+    "realConnectors": true,
+    "autoBackup": true
+  },
+  "folders": {
+    "catalog": "catalog", "campaigns": "campaigns", "content": "content",
+    "data": "data", "logs": "logs", "scripts": "scripts"
+  }
+}
