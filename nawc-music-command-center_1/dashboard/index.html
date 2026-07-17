@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>NAWC Music Command Center</title>
+<link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+<div class="app-shell">
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">NAWC</span>
+      <span class="brand-name" id="dashboardName">NAWC Music Command Center</span>
+    </div>
+    <div class="topbar-actions">
+      <button id="themeToggle" class="btn-ghost" aria-label="Toggle light and dark theme">🌓 Theme</button>
+    </div>
+  </header>
+
+  <div class="layout">
+    <nav class="sidenav" aria-label="Primary">
+      <ul>
+        <li><a href="#home" data-view="home" class="nav-link active">Home</a></li>
+        <li><a href="#catalog" data-view="catalog" class="nav-link">Catalog</a></li>
+        <li><a href="#songlab" data-view="songlab" class="nav-link">Song Lab</a></li>
+        <li><a href="#releases" data-view="releases" class="nav-link">Releases</a></li>
+        <li><a href="#campaigns" data-view="campaigns" class="nav-link">Campaigns</a></li>
+        <li><a href="#content" data-view="content" class="nav-link">Content</a></li>
+        <li><a href="#analytics" data-view="analytics" class="nav-link">Analytics</a></li>
+        <li><a href="#collaborators" data-view="collaborators" class="nav-link">Collaborators</a></li>
+        <li><a href="#opportunities" data-view="opportunities" class="nav-link">Opportunities</a></li>
+        <li><a href="#impact" data-view="impact" class="nav-link">Ministry Impact</a></li>
+        <li><a href="#trophy" data-view="trophy" class="nav-link">Trophy Room</a></li>
+        <li><a href="#settings" data-view="settings" class="nav-link">Settings</a></li>
+      </ul>
+    </nav>
+
+    <main class="content" id="mainContent" tabindex="-1">
+      <div id="loadingState" class="state-banner">Loading NAWC data…</div>
+      <div id="offlineState" class="state-banner state-error" hidden>
+        Can't reach the local server. Make sure <code>node scripts/server.js</code> is running.
+      </div>
+      <div id="views"></div>
+    </main>
+  </div>
+
+  <footer class="commandbar">
+    <form id="commandForm" autocomplete="off">
+      <label for="commandInput" class="sr-only">Command box</label>
+      <input id="commandInput" type="text" placeholder="Try: show unfinished songs, show songs missing artwork, what should NAWC post today…" />
+      <button type="submit" class="btn-accent">Run</button>
+    </form>
+    <div id="commandOutput" class="command-output" role="status" aria-live="polite"></div>
+  </footer>
+
+</div>
+<script src="/js/app.js"></script>
+</body>
+</html>

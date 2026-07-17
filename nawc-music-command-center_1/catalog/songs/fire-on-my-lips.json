@@ -1,0 +1,85 @@
+{
+  "id": "song-fire-on-my-lips",
+  "title": "Fire On My Lips",
+  "alternateTitle": "",
+  "internalWorkingTitle": "",
+  "albumId": "album-volume-one",
+  "releaseType": "album track",
+  "genre": "Afrogospel / Praise & Worship",
+  "subgenre": "",
+  "key": "",
+  "bpm": null,
+  "timeSignature": "",
+  "mood": "",
+  "theme": "",
+  "scriptureInspiration": "",
+  "language": "English",
+  "culturalInfluence": [
+    "Afrobeat",
+    "Ghanaian highlife"
+  ],
+  "status": "Released",
+  "trackNumber": 5,
+  "credits": {
+    "writers": [],
+    "producers": [],
+    "vocalists": [],
+    "musicians": [],
+    "choir": [],
+    "featuredArtists": []
+  },
+  "assets": {
+    "demoFiles": [],
+    "masterFiles": [],
+    "instrumentals": [],
+    "artwork": {
+      "status": "released",
+      "files": [
+        "https://i.scdn.co/image/ab67616d0000b27318836c868fb3cdbe1cd0eec3"
+      ]
+    },
+    "musicVideo": {
+      "status": "unknown",
+      "files": []
+    }
+  },
+  "lyrics": {
+    "currentVersion": null,
+    "versions": []
+  },
+  "sunoPrompts": {
+    "currentVersion": null,
+    "versions": []
+  },
+  "distributionLinks": {
+    "spotify": "https://open.spotify.com/track/09jq9MnKp3HG8oyiqMKRZN",
+    "spotifyArtist": "https://open.spotify.com/artist/0DzRCKOofMdgNsoEEC7gCY",
+    "appleMusicAlbum": "https://music.apple.com/us/album/nations-arise-worship-collective-volume-one/1895430563",
+    "appleMusicArtist": "https://music.apple.com/us/artist/nations-arise-worship-collective/1894612957",
+    "spotifySingle": "",
+    "appleMusicSingle": "",
+    "youtube": "",
+    "youtubeMusic": "",
+    "tiktokSound": ""
+  },
+  "isrc": "",
+  "upc": "",
+  "copyright": "© 2026 NAWC Music",
+  "publishing": "℗ 2026 NAWC Music",
+  "notes": "Verified from live Spotify/Apple Music album pages on 2026-07-17.",
+  "sourceOfTruth": "spotify+apple-music (fetched)",
+  "createdAt": "2026-07-16",
+  "updatedAt": "2026-07-17",
+  "versionHistory": [
+    {
+      "date": "2026-07-16",
+      "change": "Catalog entry created",
+      "by": "system"
+    },
+    {
+      "date": "2026-07-17",
+      "change": "Enriched with real Spotify/Apple Music links and release date",
+      "by": "system"
+    }
+  ]
+}

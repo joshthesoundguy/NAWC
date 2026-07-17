@@ -1,0 +1,8 @@
+{
+  "_note": "No live data imported yet. Run scripts/import-youtube.js and scripts/import-spotify.js (see README Step 6) once your API credentials / distributor exports are ready. Nothing here is fabricated.",
+  "lastImported": null,
+  "youtube": { "connected": false, "subscribers": null, "videos": [] },
+  "spotify": { "connected": false, "note": "Spotify has no public API for an artist's own stream counts; use Spotify for Artists exports or your distributor's CSV export via scripts/import-distributor-csv.js", "streams": null },
+  "instagram": { "connected": false, "reach": null },
+  "tiktok": { "connected": false, "views": null }
+}

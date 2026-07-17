@@ -1,0 +1,11 @@
+{ "releases": [
+  { "id": "release-he-never-left-me", "songId": "song-he-never-left-me", "albumId": "album-volume-one", "stage": "Post-Release", "releaseDate": "2026-05-01", "tasks": [{ "task": "Add ISRC", "done": false }] },
+  { "id": "release-thats-my-god", "songId": "song-thats-my-god", "albumId": "album-volume-one", "stage": "Post-Release", "releaseDate": "2026-05-01", "tasks": [{ "task": "Add ISRC", "done": false }] },
+  { "id": "release-focus-of-my-worship-holy-holy-holy", "songId": "song-focus-of-my-worship-holy-holy-holy", "albumId": "album-volume-one", "stage": "Post-Release", "releaseDate": "2026-05-01", "tasks": [{ "task": "Add ISRC", "done": false }] },
+  { "id": "release-no-not-one", "songId": "song-no-not-one", "albumId": "album-volume-one", "stage": "Post-Release", "releaseDate": "2026-05-01", "tasks": [{ "task": "Add ISRC", "done": false }] },
+  { "id": "release-fire-on-my-lips", "songId": "song-fire-on-my-lips", "albumId": "album-volume-one", "stage": "Post-Release", "releaseDate": "2026-05-01",
+    "tasks": [{ "task": "Confirm ISRC/UPC in Catalog", "done": false }] },
+  { "id": "release-fire-on-my-lips-reprise", "songId": "song-fire-on-my-lips-reprise", "albumId": "album-volume-one", "stage": "Post-Release", "releaseDate": "2026-05-01", "tasks": [{ "task": "Add ISRC", "done": false }] },
+  { "id": "release-worship-medley", "songId": "song-worship-medley", "albumId": "album-volume-one", "stage": "Post-Release", "releaseDate": "2026-05-01", "tasks": [{ "task": "Add ISRC", "done": false }] },
+  { "id": "release-focus-of-my-worship-worship-remix", "songId": "song-focus-of-my-worship-worship-remix", "albumId": "album-volume-one", "stage": "Post-Release", "releaseDate": "2026-05-01", "tasks": [{ "task": "Add ISRC", "done": false }] }
+]}
